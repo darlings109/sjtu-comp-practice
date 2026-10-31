@@ -1,0 +1,3 @@
+  1.在构造函数 StudentWrapper(const std::string &id, const Student &student)中
+  需要对const std::string id与const Student &student进行赋初值，但是作为const类型的成员，两者无法通过构造函数内进行赋值运算，而是应该进行初始化。
+
